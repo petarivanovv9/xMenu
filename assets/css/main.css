@@ -312,6 +312,30 @@ section#contact .form-group input, section#contact .form-group textarea {
 
 
 /*--------------------
+  Sign in section
+--------------------*/
+
+#signin {
+  margin-top: 100px;
+}
+
+.sign-in-btn {
+  padding: 8px 20px;
+}
+
+.sign-in-btn:hover {
+  color: #fff;
+  background-color: #fec503;
+  border-color: #f6bf01;
+}
+
+section#signin form {
+  width: 60%;
+  margin: 15px auto;
+}
+
+
+/*--------------------
   Back to top button
 --------------------*/
 
