@@ -22,67 +22,28 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">x Menu</a>
+          <a class="navbar-brand" href="index.html">x Menu</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <!-- class="...  clear" -->
           <ul class="nav navbar-nav main-nav navbar-right">
             <li><a class="active color_animation" href="#">WELCOME</a></li>
-            <li><a class="color_animation" href="#about">ABOUT</a></li>
+            <li><a class="color_animation" href="#">ABOUT</a></li>
             <li><a class="color_animation" href="#">MENU</a></li>
             <li><a class="color_animation" href="#">MY ORDER</a></li>
-            <li><a class="color_animation" href="#contact">CONTACT</a></li>
+            <li><a class="color_animation" href="#">CONTACT</a></li>
           </ul>
         </div>
       </div>
     </nav>
 
 
-    <section id="starter">
-      <div class="follow_container">
-        <div class="starter_follow">
-          <h2 class="top-title">Welcome to x Menu</h2>
-          <h2 class="white second-title">" Best in the city "</h2>
-          <hr>
-          <a href="#"><button type="button" id="order" class="btn btn-default">Make order</button></a>
-          <span id="or-heading"> OR </span>
-          <a href="login.html"><button type="button" id="login" class="btn btn-default">Sign In</button></a>
-          <br />
-          <br />
-          <h3 id="reg-heading">If you want to join our restaurant commutnity</h3>
-          <br />
-          <a href="register.html"><button type="button" id="register" class="btn btn-default" id="register">Sign Up</button></a>
-        </div>
-      </div>
-    </section>
-
-
-    <section id="about" class="description_content">
-      <div class="limit">
-        <div class="description_body margin-right">
-          <h1>About us</h1>
-          <div class="fa fa-cutlery fa-2x"></div>
-          <p>Restaurant is a place for simplicity. Good food, good beer, and good service. Simple is the name of the game, and we’re good at finding it in all the right places, even in your dining experience. We’re a small group from Denver, Colorado who make simple food possible. Come join us and see what simplicity tastes like.</p>
-        </div>
-        <div class="picture_content margin-left">
-          <ul class="image_box_story">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-
-    <section id="contact">
+    <section id="signin">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
             <div class="section-title">
-              <h2>Contact Us</h2>
-              <p>If you have some Questions or need Help! Please Contact Us!</p>
+              <h2>Sign Up</h2>
             </div>
           </div>
         </div>
@@ -90,27 +51,25 @@
           <div class="col-lg-12 text-center">
             <form>
               <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-4">
                   <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Your Name *">
+                    <input type="text" id="email" class="form-control" placeholder="Email" required />
                   </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                   <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Your Email *">
+                    <input type="password" id="password" class="form-control" placeholder="Password" required />
                   </div>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-4">
                   <div class="form-group">
-                    <textarea class="form-control" placeholder="Your Message *"></textarea>
+                    <input type="password" id="password2" class="form-control" placeholder="Repeat Password" required />
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-lg-12 text-center">
-                  <button type="submit" class="btn send-msg">Send Message</button>
+                  <button id="signup-sub" class="btn sign-up-btn">Sign Up</button>
                 </div>
               </div>
             </form>
@@ -120,11 +79,8 @@
     </section>
 
 
-    <p id="back-top">
-      <a href="#top"><i class="fa fa-angle-up"></i></a>
-    </p>
 
-    <footer>
+    <footer class="navbar-fixed-bottom">
       <div class="container text-center">
         <p>Designed by <a href="http://petarivanov.me"><span>Petar Ivanov</span></a> with <a href="http://petarivanov.me">xMenu</a></p>
       </div>
@@ -133,6 +89,8 @@
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
     <script type="text/javascript" src="assets/js/main.js"></script>
 
