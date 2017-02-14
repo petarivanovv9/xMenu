@@ -70,16 +70,16 @@ nav li {
   Starter section
 --------------------*/
 
-#starter {
+#starter-cont {
   margin-top: 50px;
-  padding: 0;
   height: 100%;
   background: url('../images/restaurant.jpg') no-repeat center center;
   background-size: cover;
   text-align: center;
   background-position: center;
+  padding-bottom: 100px;
 }
-
+/*
 .follow_container {
   width: 100%;
   text-align: center;
@@ -90,28 +90,30 @@ nav li {
   width: 80%;
   margin: 0 auto;
   padding: 0;
-}
+}*/
 
-.top-title {
+#top-title {
+  padding-top: 50px;
   color: white;
   font-family: 'Playball', cursive;
-  font-size: 50px;
-  font-size: 6vw;
+  /*font-size: 40px;*/
+  font-size: 4.5vw;
   font-weight: 400;
 }
 
-.second-title {
+#second-title {
   font-weight: lighter;
-  font-size: 30px;
+  /*font-size: 30px;*/
   font-size: 3vw;
   font-style: italic;
   text-transform: capitalize;
+  color: white;
+
 }
 
-.white {
-  color: white;
+/*.white {
   font-size: 24px;
-}
+}*/
 
 #order, #login, #register {
   width: 30%;
@@ -358,6 +360,7 @@ section#signup form {
   margin: 15px auto;
 }
 
+
 /*--------------------
   Back to top button
 --------------------*/
@@ -379,7 +382,6 @@ section#signup form {
   text-decoration: none;
   color: #FFFFFF;
   background: #A9A9B1;
-  /* background color transition */
   -webkit-transition: 1s;
   -moz-transition: 1s;
   transition: 1s;
