@@ -5,7 +5,9 @@ body, html {
 }
 
 
-/* HEADER */
+/*--------------------
+  Header - Nav Bar
+--------------------*/
 
 nav {
   background: #1E1E1E !important;
@@ -61,4 +63,340 @@ nav li {
 
 .main-nav a:hover {
   color: #6c8f34;
+}
+
+
+/*--------------------
+  Starter section
+--------------------*/
+
+#starter {
+  margin-top: 50px;
+  padding: 0;
+  height: 100%;
+  background: url('../images/restaurant.jpg') no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  background-position: center;
+}
+
+.follow_container {
+  width: 100%;
+  text-align: center;
+}
+
+.starter_follow {
+  display: inline-block;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.top-title {
+  color: white;
+  font-family: 'Playball', cursive;
+  font-size: 50px;
+  font-size: 6vw;
+  font-weight: 400;
+}
+
+.second-title {
+  font-weight: lighter;
+  font-size: 30px;
+  font-size: 3vw;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+.white {
+  color: white;
+  font-size: 24px;
+}
+
+#order, #login, #register {
+  width: 30%;
+  background-color: rgba(255,255,255,0.7);
+  color: white;
+  font-family: 'Playball', cursive;
+  font-weight: 00;
+  font-size: 3vw;
+}
+
+#order:hover, #login:hover, #register:hover {
+  background-color: rgba(255,255,255,0);
+}
+
+#or-heading {
+  color: white;
+  font-family: 'Playball', cursive;
+  padding: 0;
+  margin: 0;
+  font-size: 300%;
+  font-weight: 300;
+  font-size: 3vw;
+  vertical-align: middle;
+}
+
+#reg-heading{
+  color: white;
+  font-family: 'Playball', cursive;
+  padding: 0;
+  margin: 0;
+  font-size: 300%;
+  font-weight: 300;
+  font-size: 3vw;
+  vertical-align: middle;
+}
+
+
+/*--------------------
+  About us section
+--------------------*/
+
+.description_content {
+  padding: 50px 0;
+  width: 100%;
+  background: #fff;
+  margin: 0 auto 0 auto;
+  position: relative;
+  background: white;
+  text-align: center;
+}
+
+.limit {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.fa-2x {
+  padding: 10px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 500;
+  width: 414px;
+  letter-spacing: 0.040em;
+  border: 9px solid #2f2e2f;
+  text-transform: capitalize;
+  font-family: inherit;
+  color: inherit;
+  padding: 7px 16px;
+}
+
+.description_body {
+  max-width: 450px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  margin-top: 10px;
+
+}
+
+.description_body p {
+  font-size: 0.960em;
+  font-weight: 500;
+  letter-spacing: 0.020em;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px 35px 35px 10px;
+}
+
+.picture_content {
+  display: inline-block;
+  padding: 0;
+  vertical-align: middle;
+}
+
+.image_box_story {
+  height: 495px;
+  max-width: 500px;
+  margin: 0 auto 45px auto;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  background-size: cover;
+}
+
+.image_box_story li {
+  width: 234px;
+  height: 234px;
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.image_box_story li:nth-of-type(1) {
+  background: url('../images/kabob.jpg') no-repeat center center;
+  background-size: cover;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.image_box_story li:nth-of-type(2) {
+  background: url('../images/limes.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.image_box_story li:nth-of-type(3) {
+  background: url('../images/radish.jpg') no-repeat center center;
+  background-size: cover;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.image_box_story li:nth-of-type(4) {
+  background: url('../images/corn.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+/*--------------------
+  Contact section
+--------------------*/
+
+#contact {
+  padding-bottom: 50px;
+}
+
+.section-title h2 {
+  font-size: 45px;
+  text-transform: uppercase;
+}
+
+.section-title p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 33px;
+  margin: 25px 100px 30px 100px;
+}
+
+section#contact form {
+  width: 60%;
+  margin: 15px auto;
+}
+
+section#contact.form-group {
+  margin-bottom: 25px;
+}
+
+section#contact .form-group input, section#contact .form-group textarea {
+  padding: 15px;
+  border: 1px solid #BBBBBB;
+  border-radius: 0;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+  font-size: 13px;
+}
+
+.contact h3 {
+  margin-bottom: 30px;
+}
+
+.contact p {
+  font-size: 13px;
+}
+
+.send-msg {
+  padding: 8px 20px;
+  margin-bottom: 0;
+}
+
+.send-msg:hover {
+  color: #fff;
+  background-color: #fec503;
+  border-color: #f6bf01;
+}
+
+
+/*--------------------
+  Sign in section
+--------------------*/
+
+#signin {
+  margin-top: 100px;
+}
+
+.sign-in-btn {
+  padding: 8px 20px;
+}
+
+.sign-in-btn:hover {
+  color: #fff;
+  background-color: #fec503;
+  border-color: #f6bf01;
+}
+
+section#signin form {
+  width: 60%;
+  margin: 15px auto;
+}
+
+
+/*--------------------
+  Back to top button
+--------------------*/
+
+#back-top {
+  position: fixed;
+  bottom: 40px;
+  right: 50px;
+  z-index: 1000;
+}
+
+#back-top a {
+  width: 60px;
+  height: 60px;
+  display: block;
+  text-align: center;
+  font: 11px/100% Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #A9A9B1;
+  /* background color transition */
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  transition: 1s;
+}
+
+#back-top a:hover {
+  background: #fed136;
+}
+
+#back-top i {
+  margin-top: 15px;
+  font-size: 28px;
+}
+
+
+/*--------------------
+  Footer
+--------------------*/
+
+footer {
+  padding: 30px;
+  background-color: #000;
+}
+
+footer p {
+  color: #B7B7B7;
+  margin: 0;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1.6px;
+}
+
+footer p a {
+  color: #fff;
+}
+
+footer p a span {
+  color: #FF9F46;
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-weight: 700;
 }
