@@ -336,6 +336,29 @@ section#signin form {
 
 
 /*--------------------
+  Sign up section
+--------------------*/
+
+#signup {
+  margin-top: 100px;
+}
+
+.sign-up-btn {
+  padding: 8px 20px;
+}
+
+.sign-up-btn:hover {
+  color: #000000;
+  background-color: #68C8E8;
+  /*border-color: #000000;*/
+}
+
+section#signup form {
+  width: 60%;
+  margin: 15px auto;
+}
+
+/*--------------------
   Back to top button
 --------------------*/
 
