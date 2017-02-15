@@ -1,3 +1,6 @@
+"use strict";
+
+
 $("ul").on("click", "li", function(){
   $(this).toggleClass("complited");
 })
