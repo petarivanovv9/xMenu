@@ -132,103 +132,35 @@ nav li {
   About us section
 --------------------*/
 
-.description_content {
-  padding: 50px 0;
-  width: 100%;
-  background: #fff;
-  margin: 0 auto;
-  position: relative;
-  background: white;
-  text-align: center;
-}
-
-.limit {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
+section#about {
+  padding: 60px 0;
 }
 
 .fa-2x {
-  padding: 10px;
+  padding: 20px;
 }
 
 #about-title {
   font-size: 36px;
   font-weight: 500;
-  width: 414px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 70px;
   letter-spacing: 0.040em;
   border: 9px solid #2f2e2f;
   text-transform: capitalize;
   font-family: inherit;
   color: inherit;
-  /*padding: 7px 16px;*/
 }
 
-.description_body {
-  max-width: 450px;
-  display: inline-block;
-  vertical-align: middle;
-  /*margin: 0;*/
-  margin-top: 10px;
+.img-box {
+  width: 100%;
+  padding: 5px;
 }
 
-.description_body p {
-  font-size: 0.960em;
-  font-weight: 500;
-  letter-spacing: 0.020em;
-  display: inline-block;
-  vertical-align: middle;
-  margin: 10px 35px 35px 10px;
-}
-
-.picture_content {
-  display: inline-block;
-  /*padding: 0;*/
-  vertical-align: middle;
-}
-
-.image_box_story {
-  height: 495px;
-  max-width: 500px;
-  margin: 0 auto 45px auto;
-  padding: 0;
-  display: inline-block;
-  vertical-align: middle;
+#left-about-col {
   text-align: center;
-  background-size: cover;
-}
-
-.image_box_story li {
-  width: 234px;
-  height: 234px;
-  list-style: none;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-}
-
-.image_box_story li:nth-of-type(1) {
-  background: url('../images/kabob.jpg') no-repeat center center;
-  background-size: cover;
-  margin-right: 20px;
-  margin-top: 20px;
-}
-
-.image_box_story li:nth-of-type(2) {
-  background: url('../images/limes.jpg') no-repeat center center;
-  background-size: cover;
-}
-
-.image_box_story li:nth-of-type(3) {
-  background: url('../images/radish.jpg') no-repeat center center;
-  background-size: cover;
-  margin-right: 20px;
-  margin-top: 20px;
-}
-
-.image_box_story li:nth-of-type(4) {
-  background: url('../images/corn.jpg') no-repeat center center;
-  background-size: cover;
+  vertical-align: center;
 }
 
 
@@ -237,7 +169,7 @@ nav li {
 --------------------*/
 
 section#contact {
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 
 .section-title h2 {
