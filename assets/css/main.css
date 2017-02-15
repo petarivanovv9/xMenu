@@ -16,19 +16,12 @@ nav {
 }
 
 li {
-  /*color: white;*/
-  /*padding-left: 10px;*/
   word-spacing: 5px !important;
 }
 
 nav li {
   padding-right: -15px;
 }
-
-/*.navbar-default {
-  height: 70px;
-  padding-top: 10px;
-}*/
 
 .navbar-brand {
   font-family: 'Pacifico', cursive;
@@ -79,18 +72,6 @@ nav li {
   background-position: center;
   padding-bottom: 100px;
 }
-/*
-.follow_container {
-  width: 100%;
-  text-align: center;
-}
-
-.starter_follow {
-  display: inline-block;
-  width: 80%;
-  margin: 0 auto;
-  padding: 0;
-}*/
 
 #top-title {
   padding-top: 50px;
@@ -111,10 +92,6 @@ nav li {
 
 }
 
-/*.white {
-  font-size: 24px;
-}*/
-
 #order, #login, #register {
   width: 30%;
   background-color: rgba(255,255,255,0.7);
@@ -133,18 +110,18 @@ nav li {
   font-family: 'Playball', cursive;
   padding: 0;
   margin: 0;
-  font-size: 300%;
+  /*font-size: 300%;*/
   font-weight: 300;
   font-size: 3vw;
   vertical-align: middle;
 }
 
-#reg-heading{
+#reg-heading {
   color: white;
   font-family: 'Playball', cursive;
   padding: 0;
   margin: 0;
-  font-size: 300%;
+  /*font-size: 300%;*/
   font-weight: 300;
   font-size: 3vw;
   vertical-align: middle;
@@ -159,7 +136,7 @@ nav li {
   padding: 50px 0;
   width: 100%;
   background: #fff;
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
   position: relative;
   background: white;
   text-align: center;
@@ -175,7 +152,7 @@ nav li {
   padding: 10px;
 }
 
-h1 {
+#about-title {
   font-size: 36px;
   font-weight: 500;
   width: 414px;
@@ -184,16 +161,15 @@ h1 {
   text-transform: capitalize;
   font-family: inherit;
   color: inherit;
-  padding: 7px 16px;
+  /*padding: 7px 16px;*/
 }
 
 .description_body {
   max-width: 450px;
   display: inline-block;
   vertical-align: middle;
-  margin: 0;
+  /*margin: 0;*/
   margin-top: 10px;
-
 }
 
 .description_body p {
@@ -207,7 +183,7 @@ h1 {
 
 .picture_content {
   display: inline-block;
-  padding: 0;
+  /*padding: 0;*/
   vertical-align: middle;
 }
 
@@ -255,11 +231,12 @@ h1 {
   background-size: cover;
 }
 
+
 /*--------------------
   Contact section
 --------------------*/
 
-#contact {
+section#contact {
   padding-bottom: 50px;
 }
 
@@ -317,7 +294,7 @@ section#contact .form-group input, section#contact .form-group textarea {
   Sign in section
 --------------------*/
 
-#signin {
+section#signin {
   margin-top: 100px;
 }
 
@@ -341,7 +318,7 @@ section#signin form {
   Sign up section
 --------------------*/
 
-#signup {
+section#signup {
   margin-top: 100px;
 }
 
